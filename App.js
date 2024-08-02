@@ -1,5 +1,6 @@
 import Modal from "./Modal";
 import { useState } from "react";
+import "./App.css"
 
 function App() {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -9,14 +10,7 @@ function App() {
 
   return (
     <div
-      className="app"
-      style={{
-        height: "100vh",
-        width: "100vw",
-        display: "flex",
-        alignItems: "center",
-        justifyContent: "center",
-      }}
+      className="app1"
     >
       <button onClick={openModal}>
         Open Modal
