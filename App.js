@@ -25,7 +25,6 @@ function App() {
       {isModalOpen && (
         <Modal onClose={closeModal}>
           <h2>This is a modal!</h2>
-          <button onClick={closeModal}>Close</button>
         </Modal>
       )}
     </div>
